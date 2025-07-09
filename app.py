@@ -1,6 +1,6 @@
 import streamlit as st
-from utils.pdf_utils import extract_text_from_pdf
-from utils.ai_utils import analyze_symptoms
+from pdf_utils import extract_text_from_pdf
+from ai_utils import analyze_symptoms
 from dotenv import load_dotenv
 import os
 
